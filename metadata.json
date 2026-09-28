@@ -1,5 +1,5 @@
 {
-  "name": "Hourly Status Report - 12 Hours Daily Time & Activity Log",
+  "name": "Hourly Status Report",
   "description": "Daily 12-hour status report tracking hourly time and activities from 9:00 AM to 9:00 PM with progress tracking and export.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

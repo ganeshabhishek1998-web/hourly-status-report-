@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hourly Status Report</string>
+    <string name="subtitle_schedule">12-Hour Daily Log (9:00 AM – 9:00 PM)</string>
+    <string name="header_badge">Daily Work Activity Log · 12-Hour Schedule Window</string>
+    <string name="operational_schedule">9:00 AM – 9:00 PM operational schedule</string>
+    <string name="write_it_down">Write It Down</string>
+    <string name="ai_chat_help">AI Chat Help</string>
+    <string name="copy_report">Copy Report</string>
+    <string name="copied">Copied!</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="upload_report">Upload Report</string>
+    <string name="apply_template">Sample Log</string>
+    <string name="reset_report">Reset Report</string>
+    <string name="current_time_label">Current Time</string>
+    <string name="shift_time_label">Shift Time: 9:00 AM – 9:00 PM</string>
+    <string name="today_button">Today</string>
+    <string name="previous_day">Previous Day</string>
+    <string name="next_day">Next Day</string>
+    <string name="activity_placeholder">Enter hourly activity / task / milestone…</string>
+    <string name="lunch_break_title">Lunch break</string>
+    <string name="lunch_break_subtitle">Scheduled meal &amp; recharge interval</string>
+    <string name="target_hours_footer">Target: 12.0 hours</string>
+    <string name="ai_chat_title">AI Chat: Write It Down</string>
+    <string name="ai_input_placeholder">Say anything (e.g. "I\'m just saying, write it down")…</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="close_chat">Close</string>
+    <string name="share_report">Share Report</string>
+</resources>

@@ -2,28 +2,21 @@ name: Android Build
 
 on:
   push:
-    paths:
-      - "android/**"
-      - ".github/workflows/android.yml"
+    branches: [ main, master ]
   pull_request:
-    paths:
-      - "android/**"
-      - ".github/workflows/android.yml"
+    branches: [ main, master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: android
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: "21"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
